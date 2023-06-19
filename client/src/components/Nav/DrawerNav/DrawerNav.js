@@ -33,7 +33,7 @@ const DrawerNav = () => {
           onKeyDown={toggleDrawer(anchor, false)}
         >
         <List>
-            {['Home', 'Shop', 'Men', 'Women', 'Kids'].map((text) => (
+            {['Inara', 'Pooranya', 'Minavar', 'Malar'].map((text) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
                   <ListItemText>
