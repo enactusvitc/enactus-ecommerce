@@ -1,6 +1,6 @@
 import "./NavBrand.css";
 import { Link } from "react-router-dom";
-import Logo from "../../../asset/img/enactus-logo-gray.png";
+import Logo from "../../../asset/img/enactus-logo-complete.png";
 
 const NavBrand = () => {
   return (

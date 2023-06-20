@@ -7,15 +7,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 200;
 }
 
 .navbrand__logo {
-    height: 60px;
+    height: 200px;
+    position: relative;
+    top: 20px;
 }
 
 
 @media screen and (max-width: 600px) {
     .navbrand__container  {
         align-self: center;
+    }
+
+    .navbrand__logo {
+        height: 100px;
+        top: 0;
     }
 }
