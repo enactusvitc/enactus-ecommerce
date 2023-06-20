@@ -22,14 +22,14 @@ const Landing = () => {
                   borderRadius: "20px",
                   fontWeight: "700",
                   backgroundColor: "none",
-                  borderColor: "#ffe26e",
-                  color: "#ffe26e",
+                  borderColor: "#fecf3e",
+                  color: "#fecf3e",
                 },
                 {
                   "&:hover": {
-                    backgroundColor: "#ffe26e",
+                    backgroundColor: "#fecf3e",
                     color: "black",
-                    borderColor: "#ffe26e",
+                    borderColor: "#fecf3e",
                   },
                 },
               ]}
