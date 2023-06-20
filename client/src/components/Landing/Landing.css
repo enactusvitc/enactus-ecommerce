@@ -2,36 +2,38 @@
 
 .landing__container {
     width: 100%;
-    min-height: 420px;
-    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     flex-wrap: wrap-reverse;
-    background-color: #ffe26e;
+    background-color: black;
     position: relative;
+    background-image: url("../../asset/img/vitchennai-banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: white;
 }
 
 
 .landing__header a {
     text-decoration: none;
-    color: #000;
+    color: white;
 }
 
 .landing__header__container {
     width: 40%;
-    height: auto;
     min-height: 450px;
     min-width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    z-index: 100;
 }
 
 .landing__header {
-    height: 100%;
     width: 90%;
     display: flex;
     justify-content: center;
@@ -52,11 +54,11 @@
     width: 60%;
     cursor: pointer;
     transition: .3s;
+    color: white;
 }
 
 .landing__image__container {
     width: 50%;
-    height: ;
     display: flex;
     justify-content: center;
     align-items: center;
