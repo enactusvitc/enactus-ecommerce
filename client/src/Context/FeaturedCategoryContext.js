@@ -4,7 +4,7 @@ import inara from '../asset/img/project-logo/inara-logo.png'
 import pooranya from '../asset/img/project-logo/pooranya-logo.png'
 import malar from '../asset/img/project-logo/malar-logo.png'
 import naari from '../asset/img/project-logo/naari-logo.png'
-import minavar from '../asset/img/project-logo/naari-logo.png'
+import minavar from '../asset/img/project-logo/minavar-logo.png'
 
 export const FeatureCategoryContext = createContext([
     {
