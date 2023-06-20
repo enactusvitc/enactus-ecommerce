@@ -76,4 +76,16 @@
     .landing__image__container{
        display: none;
     }
+
+    .landing__header__main {
+        font-size: 2.6rem;
+    }
+
+    .landing__header__discount {
+        font-size: 0.8rem;
+    }
+
+    .landing__header {
+        gap: 10px;
+    }
 }

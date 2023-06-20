@@ -6,7 +6,7 @@ const CategoryCard = (props) => {
     return ( 
         <div className="category__card__card">
                 <div className="category__image"> 
-                   <img src= {props.data.image} alt="" className="product__img"/> 
+                   <img src={props.data.image} alt="" className="product__img"/> 
                 </div>
                 <div className="category__card__detail">
                     <div className="category__name">
@@ -14,10 +14,10 @@ const CategoryCard = (props) => {
                     </div>
                     <div className="category__card__action">
                         <Link to={props.data.url}>
-                            <Button variant='outlined' sx={[{'&:hover': { backgroundColor: 'none', borderColor: '#FFE26E', color: '#FFE26E'}, borderRadius: '20px' , borderColor: '#FFE26E', backgroundColor: "#FFE26E" , color: "#000", fontWeight: '700'}]}>SHOP NOW</Button>
+                            <Button variant='outlined' sx={[{'&:hover': { backgroundColor: 'transparent', borderColor: '#212529', color: '#212529'}, borderRadius: '20px' , borderColor: '#FFE26E', backgroundColor: "#212529" , color: "#fff", fontWeight: '500'}]}>SHOP NOW</Button>
                         </Link>
                     </div>
-            </div>
+                </div>
         </div>
      );
 }

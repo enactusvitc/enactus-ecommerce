@@ -38,13 +38,13 @@ const Footer = () => {
             </div>
             <ul className="footer__contacts">
               <li className="footer__contact">
-                <LocalPhoneIcon /> <span>+123 4567 890</span>
+                <LocalPhoneIcon className="footer__contact__icons"/> <span>+123 4567 890</span>
               </li>
               <li className="footer__contact">
-                <EmailIcon /> <span>enactusvitc@gmail.com</span>
+                <EmailIcon className="footer__contact__icons"/> <span>enactusvitc@gmail.com</span>
               </li>
               <li className="footer__contact">
-                <LocationOnIcon /> <span>Kelambakkam, Chennai, Tamil Nadu</span>
+                <LocationOnIcon className="footer__contact__icons"/> <span>Kelambakkam, Chennai, Tamil Nadu</span>
               </li>
             </ul>
           </div>
@@ -54,22 +54,22 @@ const Footer = () => {
             </div>
             <ul className="footer__social__links">
               <li className="social__link">
-                <a href='/' className="social__link">
+                <a href='/' className="social__link" target="__blank">
                   <TwitterIcon className="icon"/>
                 </a>
               </li>
               <li className="social__link">
-                <a href='/' className="social__link">
+                <a href='/' className="social__link" target="__blank">
                   <InstagramIcon className="icon"/>
                 </a>
               </li>
               <li className="social__link">
-                <a href='/' className="social__link">
+                <a href='/' className="social__link" target="__blank">
                   <YouTubeIcon className="icon"/>
                 </a>
               </li>
               <li className="social__link">
-                <a href='/' className="social__link">
+                <a href='/' className="social__link" target="__blank">
                   <TelegramIcon className="icon"/>
                 </a>
               </li>
