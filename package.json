@@ -1,7 +1,7 @@
 {
-  "name": "shema",
+  "name": "enactus-vitc-ecommerce",
   "version": "1.0.0",
-  "description": "Shema MERN Stack Ecommerce application",
+  "description": "Enactus VITC E-Commerce Application",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Bereky/shema-mern-ecommerce/issues"
   },
-  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme"
+  "homepage": "https://github.com/Bereky/shema-mern-ecommerce#readme",
+  "dependencies": {
+    "mongodb": "^5.6.0"
+  }
 }

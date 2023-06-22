@@ -18,7 +18,7 @@ const FeaturedItems = (props) => {
                 { props.items &&
                     <div className="featured__products__card__container">
                         <ItemCard item={props.items[0]} category="featured"/>
-                        <ItemCard item={props.items[4]} category="featured"/>
+                        <ItemCard item={props.items[6]} category="featured"/>
                         <ItemCard item={props.items[10]} category="featured"/>
                         <ItemCard item={props.items[20]} category="featured"/>
                         <ItemCard item={props.items[16]} category="featured"/>

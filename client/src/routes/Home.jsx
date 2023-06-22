@@ -11,7 +11,7 @@ const Home = () => {
     TabTitle("Enactus VITC");
 
     useEffect(() => {
-        axios.get("https://shema-backend.vercel.app/api/items")
+        axios.get("https://enactus-ecommerce-backend.vercel.app/api/items")
             .then(res => setFeaturedItems(res.data))
             .catch(err => console.log(err))
 
